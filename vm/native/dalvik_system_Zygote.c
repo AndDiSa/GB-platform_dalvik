@@ -404,6 +404,7 @@ static inline void pushAnonymousPagesToKSM(void)
     }
     fclose(fp);
 }
+
 /*
  * Utility routine to fork zygote and specialize the child process.
  */
