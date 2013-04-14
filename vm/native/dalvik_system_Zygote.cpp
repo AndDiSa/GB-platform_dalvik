@@ -19,6 +19,7 @@
  */
 #include "Dalvik.h"
 #include "native/InternalNativePriv.h"
+#include <sys/resource.h>
 
 #ifdef HAVE_SELINUX
 #include <selinux/android.h>
